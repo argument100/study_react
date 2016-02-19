@@ -15,6 +15,7 @@ var AreaInput = React.createClass({
   }
 });
 
+
 var Area = React.createClass({
   
   getInitialState: function() {
@@ -36,6 +37,7 @@ var Area = React.createClass({
     this.setState({data: nextProps.data});
   }
 });
+
 
 var Address = React.createClass({
 
